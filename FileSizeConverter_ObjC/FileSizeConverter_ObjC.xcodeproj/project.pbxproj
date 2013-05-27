@@ -10,7 +10,7 @@
 		5669D9A11727FF19006B9B40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5669D9A01727FF19006B9B40 /* Foundation.framework */; };
 		5669D9A41727FF19006B9B40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669D9A31727FF19006B9B40 /* main.m */; };
 		5669D9A81727FF19006B9B40 /* FileSizeConverter_ObjC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5669D9A71727FF19006B9B40 /* FileSizeConverter_ObjC.1 */; };
-		5669D9B01727FF3C006B9B40 /* FileSizeConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669D9AF1727FF3C006B9B40 /* FileSizeConverter.m */; };
+		568293A817534F2F001A58B9 /* FileSizeConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 568293A717534F2F001A58B9 /* FileSizeConverter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,8 +32,9 @@
 		5669D9A31727FF19006B9B40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5669D9A61727FF19006B9B40 /* FileSizeConverter_ObjC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileSizeConverter_ObjC-Prefix.pch"; sourceTree = "<group>"; };
 		5669D9A71727FF19006B9B40 /* FileSizeConverter_ObjC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FileSizeConverter_ObjC.1; sourceTree = "<group>"; };
-		5669D9AE1727FF3C006B9B40 /* FileSizeConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSizeConverter.h; sourceTree = "<group>"; };
-		5669D9AF1727FF3C006B9B40 /* FileSizeConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSizeConverter.m; sourceTree = "<group>"; };
+		568293A617534F2F001A58B9 /* FileSizeConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileSizeConverter.h; path = ../FileSizeConverter.h; sourceTree = "<group>"; };
+		568293A717534F2F001A58B9 /* FileSizeConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileSizeConverter.m; path = ../FileSizeConverter.m; sourceTree = "<group>"; };
+		568293A917534F46001A58B9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +52,9 @@
 		5669D9941727FF19006B9B40 = {
 			isa = PBXGroup;
 			children = (
-				5669D9AE1727FF3C006B9B40 /* FileSizeConverter.h */,
-				5669D9AF1727FF3C006B9B40 /* FileSizeConverter.m */,
+				568293A917534F46001A58B9 /* README.md */,
+				568293A617534F2F001A58B9 /* FileSizeConverter.h */,
+				568293A717534F2F001A58B9 /* FileSizeConverter.m */,
 				5669D9A21727FF19006B9B40 /* FileSizeConverter_ObjC */,
 				5669D99F1727FF19006B9B40 /* Frameworks */,
 				5669D99E1727FF19006B9B40 /* Products */,
@@ -145,7 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5669D9A41727FF19006B9B40 /* main.m in Sources */,
-				5669D9B01727FF3C006B9B40 /* FileSizeConverter.m in Sources */,
+				568293A817534F2F001A58B9 /* FileSizeConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +248,7 @@
 				5669D9AD1727FF19006B9B40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
