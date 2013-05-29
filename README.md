@@ -1,7 +1,11 @@
 FileSizeConverter_ObjC
 ======================
-
 Converts given bytes into a human readable format in Objective-C
+
+Documentation
+==============
+Add FileSizeConverter.m and FileSizeConverter.h into your project and `#import "FileSizeConverter.h"` wherever you need to calculate size of a file. And simply follow the instructions:
+
 
 Copyright
 ==============
