@@ -6,6 +6,19 @@ Documentation
 ==============
 Add FileSizeConverter.m and FileSizeConverter.h into your project and `#import "FileSizeConverter.h"` wherever you need to calculate size of a file. And simply follow the instructions:
 
+Create a new FileSizeConverter object
+```
+	FileSizeConverter *converter = [[FileSizeConverter alloc] init];
+```
+Call `convertBytes` method and pass the size in bytes
+```
+    [converter convertBytes:xxxxxxx];
+```
+Destroy the converter when you are done with it
+```
+     [converter release];
+```
+
 
 Copyright
 ==============
